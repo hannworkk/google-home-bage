@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    color:#944767;
+    line-height:1.5;
+    background-color:#e2eaec ;
+}
+
+#home{
+    background-image:url('../img/home.jpeg') ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    padding: 10 20px;
+
+}
+
+#home h1{
+    font-size: 50px;
+    line-height:1.2;
+}
+#home p{
+   font-size:20px; 
+}
+#home .button{
+    font-size: 18px;
+    text-decoration: none;
+    color:#944767;
+    border:#944767 1px solid;
+    padding:10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#home .button:hover{
+    background:#944767;
+    color:#fff;
+
+}
+
+#row-a{
+    padding:30px 20px;
+    background: #944767;
+    color:#e6eef0;
+    text-align: center;
+   
+    
+}
+
+#row-b{
+    background-image:url('../img/sweeet.jpg') ;
+    height: 28vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    color:#944767;
+}
+#row-c{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+       
+}
+
+#row-c div{
+    padding:20px;
+    height: 100px;
+   
+}
+
+#row-c .col-1, #row-c .col-3{
+    background:#944767;
+    color:#e6eef0;
+    
+}
+#row-c .col-2{
+    background:#e2eaec;
+   
+}
